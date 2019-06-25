@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -O0 -nostartfiles -Map=ExamenTR_Corrige_NSA.map -mcpu=cortex-m3 -mthumb -LC:\LabSoft\Software\CoIDE\workspace\ExamenTR_Corrige_NSA --gc-sections -TC:\LabSoft\Software\CoIDE\workspace\ExamenTR_Corrige_NSA\link.ld -g">
+      <target file="ExamenTR_Corrige_NSA.elf" lastModified="16b6afa03d9">
+         <source file="..\obj\delay.o" lastModified="16b6aed8d18"/>
+         <source file="..\obj\kernelHeap.o" lastModified="16b6aed8d66"/>
+         <source file="..\obj\core.o" lastModified="16b6aed8d95"/>
+         <source file="..\obj\core_cm3.o" lastModified="16b6aed8dc4"/>
+         <source file="..\obj\timer.o" lastModified="16b6aed8e02"/>
+         <source file="..\obj\lpc17xx_clkpwr.o" lastModified="16b6aed8e40"/>
+         <source file="..\obj\utility.o" lastModified="16b6aed8e6f"/>
+         <source file="..\obj\system_LPC17xx.o" lastModified="16b6aed8e9e"/>
+         <source file="..\obj\task.o" lastModified="16b6aed8eec"/>
+         <source file="..\obj\lpc17xx_adc.o" lastModified="16b6aed8f2a"/>
+         <source file="..\obj\lpc17xx_i2s.o" lastModified="16b6aed8f88"/>
+         <source file="..\obj\serviceReq.o" lastModified="16b6aed8fb7"/>
+         <source file="..\obj\main.o" lastModified="16b6afa036c"/>
+         <source file="..\obj\lpc17xx_gpio.o" lastModified="16b6aed9062"/>
+         <source file="..\obj\mbox.o" lastModified="16b6aed90a1"/>
+         <source file="..\obj\mm.o" lastModified="16b6aed90df"/>
+         <source file="..\obj\startup_LPC17xx.o" lastModified="16b6aed90fe"/>
+         <source file="..\obj\lpc17xx_libcfg_default.o" lastModified="16b6aed911e"/>
+         <source file="..\obj\time.o" lastModified="16b6aed916c"/>
+         <source file="..\obj\event.o" lastModified="16b6aed91ba"/>
+         <source file="..\obj\lpc17xx_pinsel.o" lastModified="16b6aed91e8"/>
+         <source file="..\obj\lpc17xx_exti.o" lastModified="16b6aed9217"/>
+         <source file="..\obj\syscalls.o" lastModified="16b6aed9256"/>
+         <source file="..\obj\lpc17xx_i2c.o" lastModified="16b6aed92e2"/>
+         <source file="..\obj\adc.o" lastModified="16b6aed9330"/>
+         <source file="..\obj\port.o" lastModified="16b6aed936e"/>
+         <source file="..\obj\queue.o" lastModified="16b6aed93bc"/>
+         <source file="..\obj\mutex.o" lastModified="16b6aed940a"/>
+         <source file="..\obj\flag.o" lastModified="16b6aed9468"/>
+         <source file="..\obj\lcd.o" lastModified="16b6aed94c6"/>
+         <source file="..\obj\lpc17xx_nvic.o" lastModified="16b6aed9504"/>
+         <source file="..\obj\arch.o" lastModified="16b6aed9533"/>
+         <source file="..\obj\sem.o" lastModified="16b6aed9581"/>
+         <source file="..\obj\hook.o" lastModified="16b6aed95b0"/>
+      </target>
+   </processor>
+</history>

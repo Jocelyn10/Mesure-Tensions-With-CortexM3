@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -O0 -g -c -DLPC1768 -I. -Icmsis -Ilpc17xx_lib -Ilpc17xx_lib\include -Icmsis_boot -ICoOS\portable -ICoOS -ICoOS\kernel">
+      <target file="timer.o" lastModified="16b6aed8e02">
+         <source file="..\..\CoOS\kernel\timer.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="mbox.o" lastModified="16b6aed90a1">
+         <source file="..\..\CoOS\kernel\mbox.c" lastModified="16b6ac518e9"/>
+      </target>
+      <target file="lpc17xx_i2c.o" lastModified="16b6aed92e2">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_i2c.c" lastModified="16b6ac5010b"/>
+      </target>
+      <target file="lpc17xx_pinsel.o" lastModified="16b6aed91e8">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="16b6ac4fc57"/>
+      </target>
+      <target file="lpc17xx_clkpwr.o" lastModified="16b6aed8e40">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="16b6ac4f698"/>
+      </target>
+      <target file="event.o" lastModified="16b6aed91ba">
+         <source file="..\..\CoOS\kernel\event.c" lastModified="16b6ac518e9"/>
+      </target>
+      <target file="mutex.o" lastModified="16b6aed940a">
+         <source file="..\..\CoOS\kernel\mutex.c" lastModified="16b6ac518f9"/>
+      </target>
+      <target file="core_cm3.o" lastModified="16b6aed8dc4">
+         <source file="..\..\cmsis\core_cm3.c" lastModified="16b6ac4ea09"/>
+      </target>
+      <target file="hook.o" lastModified="16b6aed95b0">
+         <source file="..\..\CoOS\kernel\hook.c" lastModified="16b6ac518e9"/>
+      </target>
+      <target file="lpc17xx_libcfg_default.o" lastModified="16b6aed911e">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="16b6ac4f4ae"/>
+      </target>
+      <target file="serviceReq.o" lastModified="16b6aed8fb7">
+         <source file="..\..\CoOS\kernel\serviceReq.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="time.o" lastModified="16b6aed916c">
+         <source file="..\..\CoOS\kernel\time.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="queue.o" lastModified="16b6aed93bc">
+         <source file="..\..\CoOS\kernel\queue.c" lastModified="16b6ac518f9"/>
+      </target>
+      <target file="kernelHeap.o" lastModified="16b6aed8d66">
+         <source file="..\..\CoOS\kernel\kernelHeap.c" lastModified="16b6ac518e9"/>
+      </target>
+      <target file="lpc17xx_adc.o" lastModified="16b6aed8f2a">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_adc.c" lastModified="16b6ac50a99"/>
+      </target>
+      <target file="lpc17xx_nvic.o" lastModified="16b6aed9504">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_nvic.c" lastModified="16b6ac4f45b"/>
+      </target>
+      <target file="sem.o" lastModified="16b6aed9581">
+         <source file="..\..\CoOS\kernel\sem.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="lpc17xx_exti.o" lastModified="16b6aed9217">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_exti.c" lastModified="16b6ac51c80"/>
+      </target>
+      <target file="lpc17xx_gpio.o" lastModified="16b6aed9062">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="16b6ac4f98b"/>
+      </target>
+      <target file="system_LPC17xx.o" lastModified="16b6aed8e9e">
+         <source file="..\..\cmsis_boot\system_LPC17xx.c" lastModified="16b6ac4f490"/>
+      </target>
+      <target file="port.o" lastModified="16b6aed936e">
+         <source file="..\..\CoOS\portable\GCC\port.c" lastModified="16b6ac51918"/>
+      </target>
+      <target file="delay.o" lastModified="16b6aed8d18">
+         <source file="..\..\delay.c" lastModified="16b6ac5e7f9"/>
+      </target>
+      <target file="task.o" lastModified="16b6aed8eec">
+         <source file="..\..\CoOS\kernel\task.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="core.o" lastModified="16b6aed8d95">
+         <source file="..\..\CoOS\kernel\core.c" lastModified="16b6ac518da"/>
+      </target>
+      <target file="arch.o" lastModified="16b6aed9533">
+         <source file="..\..\CoOS\portable\arch.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="syscalls.o" lastModified="16b6aed9256">
+         <source file="..\..\syscalls\syscalls.c" lastModified="16b6ac4ece9"/>
+      </target>
+      <target file="startup_LPC17xx.o" lastModified="16b6aed90fe">
+         <source file="..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="16b6ac4f486"/>
+      </target>
+      <target file="adc.o" lastModified="16b6aed9330">
+         <source file="..\..\adc.c" lastModified="16b6ac5e7f9"/>
+      </target>
+      <target file="flag.o" lastModified="16b6aed9468">
+         <source file="..\..\CoOS\kernel\flag.c" lastModified="16b6ac518e9"/>
+      </target>
+      <target file="mm.o" lastModified="16b6aed90df">
+         <source file="..\..\CoOS\kernel\mm.c" lastModified="16b6ac518e9"/>
+      </target>
+      <target file="lpc17xx_i2s.o" lastModified="16b6aed8f88">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_i2s.c" lastModified="16b6ac50393"/>
+      </target>
+      <target file="utility.o" lastModified="16b6aed8e6f">
+         <source file="..\..\CoOS\kernel\utility.c" lastModified="16b6ac51909"/>
+      </target>
+      <target file="main.o" lastModified="16b6afa036c">
+         <source file="..\..\main.c" lastModified="16b6af9fb9f"/>
+      </target>
+      <target file="lcd.o" lastModified="16b6aed94c6">
+         <source file="..\..\lcd.c" lastModified="16b6ac5e809"/>
+      </target>
+   </processor>
+</history>
